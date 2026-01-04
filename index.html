@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Sitio en GitHub Pages</title>
-    
-    <!-- Código de AdSense para verificar el sitio (va en <head>) -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-     crossorigin="anonymous"></script>
+    <style>
+        /* Contenedor centrado y responsive para el anuncio */
+        .aads-banner {
+            width: 100%;
+            max-width: 100%; /* Asegura que no desborde */
+            margin: 20px auto; /* Centrado con margen arriba/abajo */
+            text-align: center; /* Centra el iframe si es necesario */
+        }
+        .aads-banner iframe {
+            width: 100%; /* Ocupa todo el ancho disponible */
+            height: auto; /* Altura automática (adaptive) */
+            border: 0;
+            overflow: hidden;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Bienvenido a mi página en GitHub Pages</h1>
     <p>Aquí va tu contenido principal...</p>
     
-    <!-- Ejemplo de anuncio responsive (insértalo donde quieras que aparezca) -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-         data-ad-slot="YYYYYYYYYY"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <!-- Anuncio A-ADS Adaptive centrado y responsive -->
+    <div class="aads-banner">
+        <iframe data-aa='2423158' 
+                src='//acceptable.a-ads.com/2423158?size=Adaptive'
+                scrolling='no' 
+                style='border:0; padding:0; overflow:hidden; background-color: transparent;'>
+        </iframe>
+    </div>
     
-    <p>Más contenido...</p>
+    <p>Más contenido debajo del anuncio...</p>
     
     <!-- Puedes agregar más anuncios si quieres -->
 </body>
